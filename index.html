@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Contact Us</h1>
+        <form>
+            <section class="fullName-section">
+                <div class="nameOne">
+                    <label for="firstName">First Name <span>*</span></label>
+                    <input class="input-field" id="firstName" type="text" >
+                </div>
+
+                <div class="nameTwo">
+                    <label for="lastName">Last Name <span>*</span></label>
+                    <input class="input-field" id="lastName" type="text" >
+                </div>
+            </section>
+
+            <section class="email-section">
+                <label for="emailAddress">Email Address <span>*</span></label>
+                <input id="emailAddress" type="text" >
+            </section>
+
+            <section class="query-type">
+                <p>Query Type <span>*</span></p>
+
+                <div class="questions">
+                    <div class="question1">
+                        <input class="input-field" id="generalEnquiry" type="radio" name="question">
+                        <label for="generalEnquiry">General Enquiry</label>
+                    </div>
+
+                    <div class="question2">
+                        <input class="input-field" id="supportRequest" type="radio" name="question">
+                        <label for="supportRequest">Support Request</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="message-section">
+                <label for="message">Message <span>*</span></label>
+                <textarea id="message" type="text" placeholder="Write your request."></textarea>
+            </section>
+
+
+            <section class="checkbox-section">
+                <input class="" id="acceptCheckbox" type="checkbox">
+                <label for="acceptCheckbox">I consent to being contacted by the team <span>*</span></label>
+            </section>
+
+            <button id="btn-submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

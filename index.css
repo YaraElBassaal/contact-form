@@ -1,0 +1,91 @@
+
+body {
+    background-color: #83c5be;
+}
+main {
+    width: 600px;
+    margin: 60px auto;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #edf6f9;
+    font-family: "Lato", sans-serif;
+}
+h1 {
+    margin-top: 0;
+    color: #015a62;
+    font-size: 40px;
+}
+span {
+    color: #015a62;
+    font-weight: bold;
+}
+.fullName-section, .questions, .checkbox-section {
+    display: flex;
+    flex-direction: row;
+}
+.nameOne, .nameTwo, .email-section, .query-type {
+    display: flex;
+    flex-direction: column;
+}
+.input-field {
+    padding: 8px 60px;
+    border-radius: 8px;
+
+}
+input, textarea {
+    background-color: #edf6f9;
+    border: 1px solid gray;
+}
+.nameTwo {
+    margin-left: 10px;
+}
+label, p {
+    margin-bottom: 8px;
+}
+#emailAddress {
+    padding: 8px 10px;
+    width: 560px;
+    border-radius: 8px;
+}
+.question1, .question2 {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 7px 125px 7px 20px;
+}
+.question2 {
+    margin-left: 10px;
+}
+#message {
+    padding: 8px 10px;
+    width: 560px;
+    height: 50px;
+    border-radius: 8px;
+}
+.message-section, .query-type, .fullName-section {
+    margin-bottom: 20px;
+}
+.message-section textarea{
+    margin-top: 8px;
+}
+#acceptCheckbox {
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    
+}
+.checkbox-section label {
+    margin-left: 10px;
+}
+#btn-submit {
+    margin-top: 20px;
+    padding: 12px 10px;
+    width: 580px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006d77;
+    color: #edf6f9;
+}
+#btn-submit:hover {
+    background-color: #bc4749;
+}
